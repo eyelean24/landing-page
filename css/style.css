@@ -1,6 +1,38 @@
 body {
-	background-color: LightGray;
+	background-color: White;
+	text-align: center;
 }
-div {
-	border: 1px solid Chocolate;
+
+.page-width {
+	width: 80%;
+	margin-left: 200px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#menubar {
+	margin-top: 20px;
+}
+
+#menubar ul li {
+	display: inline;
+}
+
+
+li a {
+	color: gray;
+	text-decoration: none;
+	padding: 2em;
+}
+
+li a:hover {
+	color: Darkgray;
+}
+
+#logo {
+	float: left;
 }
