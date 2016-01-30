@@ -4,7 +4,7 @@ body {
 }
 
 .page-width {
-	width: 80%;
+	width: 1000px;
 	margin-left: 200px;
 }
 
@@ -16,6 +16,7 @@ ul {
 
 #menubar {
 	margin-top: 20px;
+	font-family: Arial, Sans-serif;
 }
 
 #menubar ul li {
