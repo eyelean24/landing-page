@@ -1,11 +1,9 @@
-body {
-	background-color: white;
-	
-}
 
-header {
+.content {
 	margin: 0 auto;
-	width: 780px;
+	width: 880px;
+	height: 75px;
+	background-color: White;
 }
 
 ul {
@@ -22,7 +20,6 @@ nav ul li {
 	display: inline;
 }
 
-
 li a {
 	color: gray;
 	text-decoration: none;
@@ -36,6 +33,15 @@ li a.karma {
 	font-weight: 600;
 }
 
-#logo {
+.logo {
 	float: left;
+	padding-right: 6rem;
 }
+
+.introduction {
+	background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+ }
