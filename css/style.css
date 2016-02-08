@@ -1,9 +1,11 @@
 
-.content {
-	margin: 0 auto;
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+header.content {
 	width: 880px;
 	height: 75px;
-	background-color: White;
+	margin: 0 auto;
 }
 
 ul {
@@ -38,10 +40,52 @@ li a.karma {
 	padding-right: 6rem;
 }
 
-.introduction {
+.background {
 	background-image: url('../images/first-background.jpg');
-    background-position: center bottom;
+    background-position: 0 bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 33.438rem;
+	padding-top: 12.5rem;
+ }
+
+ h1, h3 {
+ 	color: White;
+ 	text-align: center;
+ 	font-weight: 200;
+ }
+
+ h1 {
+ 	font-size: 3rem;
+ }
+
+ h3 {
+ 	font-size: 1.5rem;
+ 	margin-top: -1.5rem;
+ }
+
+ button:hover {
+ 	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+ 	width: 10em;
+ 	background-color: #d9400e;
+ 	margin: 0 auto;
+ 	display: block;
+ 	color: White;
+ 	font-size: 1.25rem;
+ }
+
+ button {
+ 	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+ 	width: 10em;
+ 	background-color: #f15a29;
+ 	margin: 0 auto;
+ 	display: block;
+ 	color: White;
+ 	font-size: 1.25rem;
  }
