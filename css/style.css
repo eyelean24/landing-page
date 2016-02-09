@@ -89,3 +89,23 @@ li a.karma {
  	color: White;
  	font-size: 1.25rem;
  }
+
+ h2 {
+ 	font-size:2.5rem;
+ 	text-align: center;
+ 	font-weight: 300;
+ }
+
+.pics {
+	display:block;
+	margin: 0 auto;
+}
+
+.pics img {
+ 	height: 8rem;
+ 	width: 8rem;
+ }
+
+ .pics ul li {
+ 	display: inline;
+ }
