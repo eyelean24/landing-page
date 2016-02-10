@@ -94,18 +94,23 @@ li a.karma {
  	font-size:2.5rem;
  	text-align: center;
  	font-weight: 300;
+ 	margin-top: 4rem;
  }
 
-.pics {
-	display:block;
+section.icons {
 	margin: 0 auto;
+	text-align:center;
 }
 
-.pics img {
+.icons img {
  	height: 8rem;
  	width: 8rem;
  }
 
- .pics ul li {
- 	display: inline;
+.icons ul li  {
+ 	display: inline-block;
+ }
+ 
+ figcaption {
+ 	font-size: 1.5rem
  }
