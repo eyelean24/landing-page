@@ -1,31 +1,52 @@
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
-header.content {
+
+.content {
 	width: 880px;
 	height: 75px;
 	margin: 0 auto;
+	background-color:White;
+}
+
+.logo {
+	padding-right: 2.25rem;
+	height: 4.375rem;
+	width: 4.375rem;
 }
 
 ul {
-	margin: 0;
+	margin-top: 1rem;
 	padding: 0;
 	list-style-type: none;
+	float:right;
 }
 
 nav {
-	margin-top: 20px;
-	font-family: Arial, Sans-serif;
+	margin-top: 1.25rem;
+	background-color: white;
+	border-bottom: 1px;
+	-webkit-font-smoothing: antialiased;
+
+
 }
 nav ul li {
-	display: inline;
+	display: inline-block;
 }
 
 li a {
 	color: gray;
 	text-decoration: none;
-	padding: 2em;
+	padding: 1em;
 }
 
 li a:hover {
@@ -35,10 +56,6 @@ li a.karma {
 	font-weight: 600;
 }
 
-.logo {
-	float: left;
-	padding-right: 6rem;
-}
 
 .background {
 	background-image: url('../images/first-background.jpg');
@@ -105,6 +122,7 @@ section.icons {
 .icons img {
  	height: 8rem;
  	width: 8rem;
+ 	box-sizing: border-box;
  }
 
 .icons ul li  {
