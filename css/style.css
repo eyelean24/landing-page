@@ -7,30 +7,38 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
 .content {
 	margin: 0 auto;
+	width: 880px;
+	height: 75px;
+	padding-left:1rem;
 }
  .topNav {
- 	width: 880px;
-	height: 75px;
 	background-color:White;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #DDD;
  }
 
 .logo {
-	padding-right: 2.25rem;
+	padding-right: 2rem;
 	height: 4.375rem;
 	width: 4.375rem;
 }
 
 .toplinks {
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 	padding: 0;
 	list-style-type: none;
 	float:right;
+
 }
 
 nav {
@@ -48,7 +56,8 @@ nav ul li {
 li a {
 	color: gray;
 	text-decoration: none;
-	padding: 1em;
+	padding: 1rem;
+	font-size:1.05rem;
 }
 
 li a:hover {
@@ -56,6 +65,7 @@ li a:hover {
 }
 li a.karma {
 	font-weight: 600;
+	color: #4c5058
 }
 
 
@@ -71,7 +81,7 @@ li a.karma {
  h1, h3 {
  	color: White;
  	text-align: center;
- 	font-weight: 200;
+ 	font-weight: 300;
  }
 
  h1 {
@@ -81,15 +91,15 @@ li a.karma {
  h3 {
  	font-size: 1.5rem;
  	margin-top: -1.5rem;
- 	margin-bottom:2rem;
+ 	margin-bottom: 0;
  }
 
  button:hover {
  	text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 1rem 1.5rem;
- 	width: 10em;
+    padding: .75;
+ 	width: 9rem;
  	background-color: #d9400e;
  	margin: 0 auto;
  	display: block;
@@ -101,8 +111,8 @@ li a.karma {
  	text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 1rem 1.5rem;
- 	width: 10em;
+    padding: .75rem;
+ 	width: 9rem;
  	background-color: #f15a29;
  	margin: 0 auto;
  	display: block;
@@ -147,9 +157,10 @@ section.icons {
  	display:inline-block;
  	border-radius: 50%;
  	border: 1px solid #eaebec;
- 	width: 1.5rem;
- 	height: 1.5rem;
+ 	width: 3rem;
+ 	height: 3rem;
  	text-align: center;
+ 	padding-top: .8rem;
  }
 
 .fa-facebook {
@@ -162,17 +173,26 @@ section.icons {
 
  .fa-instagram {
 	color: #3f729b;
+
  }
+
+ .copy {
+	color: #838994;
+	font-size:.95rem;
+	font-weight:200;
+	margin-top: 1.25rem;
+	display: block;
+}
+
  .social {
- 	border-top: 1px solid #A9A9A9;
+ 	text-align:center;
+ 	margin-bottom: 5rem;
  }
 
-h5 {
-	text-align: center;
-}
+ h5.small {
+ 	font-weight:300;
+ 	font-size:.95rem;
+ }
 
-.copy {
-	text-align: center;
-	color: #d3d3d3;
-	font-size: .75rem;
-}
+
+
