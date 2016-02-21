@@ -194,5 +194,13 @@ section.icons {
  	font-size:.95rem;
  }
 
+ .pagebreak {
+ 	margin: 0 auto;
+ 	width: 50rem;
+ }
+
+ hr {
+ 	border-top:0;
+ }
 
 
